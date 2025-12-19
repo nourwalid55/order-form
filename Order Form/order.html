@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Form</title>
+</head>
+<body>
+
+<h2>Order Form</h2>
+
+<form>
+
+<fieldset>
+<legend>Billing Address</legend>
+
+Name: <input type="text"><br><br>
+Street:<br>
+<textarea rows="2"></textarea><br><br>
+City: <input type="text"><br><br>
+State: <input type="text" size="5">
+Zip: <input type="text" size="5"><br><br>
+Country: <input type="text" value="United States"><br><br>
+
+<input type="checkbox"> Ship to Billing Address
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Shipping Address</legend>
+
+Name: <input type="text"><br><br>
+Street:<br>
+<textarea rows="2"></textarea><br><br>
+City: <input type="text"><br><br>
+State: <input type="text" size="5">
+Zip: <input type="text" size="5"><br><br>
+Country: <input type="text" value="United States">
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Payment Information</legend>
+
+<input type="radio" name="card"> American Express<br>
+<input type="radio" name="card"> Discover<br>
+<input type="radio" name="card"> MasterCard<br>
+<input type="radio" name="card"> Visa<br><br>
+
+Name on Card: <input type="text"><br><br>
+Card Number: <input type="text"><br><br>
+
+Expiration Date:
+<select>
+    <option>01</option><option>02</option><option>03</option>
+</select>
+<select>
+    <option>2024</option><option>2025</option>
+</select>
+
+</fieldset>
+
+<br>
+<input type="submit" value="Place Order">
+
+</form>
+
+</body>
+</html>
